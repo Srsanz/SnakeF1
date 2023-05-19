@@ -23,7 +23,7 @@ enum estados {NO,SI};
 
 
 //Juego* p = nullptr;
-int main(int argc, char*argv[]) {
+int main(int argc, char*argv[]) { //PUTOS ANORMALES
 	TTF_Init();
 
 	
