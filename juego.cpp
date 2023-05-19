@@ -1,6 +1,7 @@
 #include "Juego.hpp"
 #include <stdio.h>
 
+//Jimbo mamahuevo
 
 
 SDL_Texture* jugadorTex; //Variable de textura del primer personaje
