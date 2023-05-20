@@ -156,6 +156,8 @@ int buscaJugador(char* nombre)
     }
     return -1;
 }
+
+
 void muestraPuntuacion(void)
 {
 #pragma warning(suppress : 4996)
@@ -213,6 +215,8 @@ void muestraPuntuacion(void)
         }
     }
 }
+
+
 int comparaPuntuacion(char* nombre)
 {
 #pragma warning(suppress : 4996)
