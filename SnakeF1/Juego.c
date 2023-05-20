@@ -3,6 +3,7 @@
 
 
 
+
 SDL_Texture* jugadorTex; //Variable de textura del primer personaje
 SDL_Texture* jugador2Tex; //Variable de textura del segundo personaje
 SDL_Texture* background;
@@ -28,9 +29,7 @@ int main(int argc, char* argv[]) {
 
 	Frame fps;
 	Juego init;
-	Arduino hardware;
-
-	ard(&hardware);
+	
 	init.isRunning = true;
 	destR2.y = 70;
 
