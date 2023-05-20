@@ -52,7 +52,6 @@ int main(void)
         {
         case 1:
             system("cls");
-            //char nombre[NOMBREMAX];
             
             do //pide que introduzcas el nombre de nuevo si introduces solo un intro como nombre
             {
@@ -240,7 +239,7 @@ void muestraPuntuacion(void)
         }
     }
 }
-int extraePuntuacion(char* nombre)
+int extraePuntuacion(char* nombre) //devuelve la puntuacion del jugador con el nombre introducido
 {
     FILE* archivo = fopen("jugadores.txt", "r");
     if (archivo == NULL) {
@@ -251,8 +250,12 @@ int extraePuntuacion(char* nombre)
     char nombreArchivo[NOMBREMAX];
     int puntuacion;
 
-    while (fscanf(archivo, "%s %d", nombreArchivo, &puntuacion) == 2) {
-        if (strcmp(nombreArchivo, nombre) == 0) {
+    //busca en el fichero hasta encontrar el nombre introducido
+
+    while (fscanf(archivo, "%s %d", nombreArchivo, &puntuacion) == 2) 
+    {
+        if (strcmp(nombreArchivo, nombre) == 0) 
+        {
             fclose(archivo);
             return puntuacion;
         }
@@ -261,7 +264,7 @@ int extraePuntuacion(char* nombre)
     fclose(archivo);
     return -1;
 }
-void borrarJugador(char* nombre)
+void borrarJugador(char* nombre) //borra jugador creando un archivo temporal en el que se pega todo lo del anterior fichero menos el jugador y puntuacion de nombre introducido
 {
     FILE* archivo = fopen("jugadores.txt", "r");
     if (archivo == NULL) {
@@ -291,5 +294,5 @@ void borrarJugador(char* nombre)
     remove("jugadores.txt");
     rename("temp.txt", "jugadores.txt");
 
-    printf("Jugador borrado exitosamente.\n");
+    //printf("Jugador borrado exitosamente.\n");
 }
