@@ -80,7 +80,7 @@
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>C:\Users\sergi\Desktop\SDL_Completo\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\sergi\Desktop\SDL_Completo\lib;$(LibraryPath)</LibraryPath>
-    <OutDir>$(SolutionDir)Personajes\</OutDir>
+    <OutDir>$(SolutionDir)</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
