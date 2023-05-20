@@ -5,6 +5,7 @@
 #include <iostream>
 #include "SerialClass.h"
 #include "SerialClass.cpp"
+#include <stdbool.h>
 
 #define TAM 4
 
