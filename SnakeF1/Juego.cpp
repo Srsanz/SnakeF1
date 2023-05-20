@@ -14,7 +14,7 @@ SDL_Texture* logros;
 SDL_Texture* salir;
 SDL_Texture* copaPiston;
 
-SDL_Rect srcR, destR; //Parámetros: ancho, altura y coordenadas en el plano (primer peronaje)
+SDL_Rect srcR, destR; //ParÃ¡metros: ancho, altura y coordenadas en el plano (primer peronaje)
 SDL_Rect srcR2, destR2;//"                                                  "(Segundo personaje)
 SDL_Rect srcR3, destR3;
 SDL_Rect dstRect = { 0, 0,1500, 800 };
@@ -34,7 +34,7 @@ int main(int argc, char* argv[]) {
 	destR2.y = 70;
 
 	fps.FPS = 35; //Con esto limitamos los FPS a un valor normal de ordenador, variable constante
-	fps.frameDelay = 1000 / fps.FPS; //Tiempo máximo entre los frames
+	fps.frameDelay = 1000 / fps.FPS; //Tiempo mÃ¡ximo entre los frames
 	int flags = 0;
 
 	init = { "Juego", 1500, 800, NO };
@@ -44,7 +44,7 @@ int main(int argc, char* argv[]) {
 	init.surface = SDL_GetWindowSurface(init.window);
 
 
-	//Creamos los rectángulos para las opciones con sus medidas
+	//Creamos los rectÃ¡ngulos para las opciones con sus medidas
 	SDL_Rect opcion1Rect = { 100, 100, 152, 38 };
 	SDL_Rect opcion2Rect = { 100, 150, 230, 38 };
 	SDL_Rect opcion3Rect = { 100, 200, 190, 38 };
@@ -317,7 +317,7 @@ Juego update2(Juego* init) {
 Juego render(Juego* init) {
 	SDL_RenderClear(init->renderer);
 	SDL_RenderCopy(init->renderer, background, NULL, &dstRect);
-	SDL_RenderCopy(init->renderer, jugadorTex, NULL, &destR);//los null indican aqui que la imagen va a cogerse entera y va ocupar lo máximo posible
+	SDL_RenderCopy(init->renderer, jugadorTex, NULL, &destR);//los null indican aqui que la imagen va a cogerse entera y va ocupar lo mÃ¡ximo posible
 	SDL_RenderCopy(init->renderer, jugador2Tex, NULL, &destR2);
 	SDL_RenderCopy(init->renderer, copaPiston, NULL, &destR3);
 
