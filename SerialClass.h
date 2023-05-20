@@ -1,3 +1,5 @@
+/*
+
 #ifndef SERIALCLASS_H_INCLUDED
 #define SERIALCLASS_H_INCLUDED
 
@@ -41,3 +43,6 @@ class Serial
 };
 
 #endif // SERIALCLASS_H_INCLUDED
+
+
+*/

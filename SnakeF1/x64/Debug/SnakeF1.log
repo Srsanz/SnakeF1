@@ -1,6 +1,4 @@
-﻿SerialClass.obj : error LNK2005: ya se definió "public: __cdecl Serial::Serial(char *)" (??0Serial@@QEAA@PEAD@Z) en juego.obj
-SerialClass.obj : error LNK2005: ya se definió "public: __cdecl Serial::~Serial(void)" (??1Serial@@QEAA@XZ) en juego.obj
-SerialClass.obj : error LNK2005: ya se definió "public: bool __cdecl Serial::IsConnected(void)" (?IsConnected@Serial@@QEAA_NXZ) en juego.obj
-SerialClass.obj : error LNK2005: ya se definió "public: int __cdecl Serial::ReadData(char *,unsigned int)" (?ReadData@Serial@@QEAAHPEADI@Z) en juego.obj
-SerialClass.obj : error LNK2005: ya se definió "public: bool __cdecl Serial::WriteData(char *,unsigned int)" (?WriteData@Serial@@QEAA_NPEADI@Z) en juego.obj
-C:\Users\sergi\Desktop\SnakeF1real\SnakeF1\SnakeF1\x64\Debug\SnakeF1.exe : fatal error LNK1169: se encontraron uno o más símbolos definidos simultáneamente
+﻿  SerialClass.cpp
+  juego.cpp
+  Generando código...
+  SnakeF1.vcxproj -> C:\Users\sergi\Desktop\SnakeF1real\SnakeF1\SnakeF1\x64\Debug\SnakeF1.exe
