@@ -1,4 +1,4 @@
-#include "Juego.hpp"
+#include "Juego.h"
 #include <stdio.h>
 
 //Jimbo mamahuevo
@@ -29,9 +29,7 @@ int main(int argc, char*argv[]) {
 	
 	Frame fps;
 	Juego init;
-	Arduino hardware;
-
-	ard(&hardware);
+	
 	init.isRunning = true;
 	destR2.y = 70;
 

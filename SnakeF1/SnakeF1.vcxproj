@@ -146,8 +146,8 @@ SDL2_image.lib
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\ficheros.c" />
+    <ClCompile Include="..\juego.cpp" />
     <ClCompile Include="..\SerialClass.cpp" />
-    <ClCompile Include="Juego.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SerialClass.h" />
