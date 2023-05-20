@@ -3,8 +3,8 @@
 #include "SDL_image.h"
 #include "SDL_TTF.h"
 #include <iostream>
-#include "SerialClass.h"
-#include "SerialClass.cpp"
+//#include "SerialClass.h"
+//#include "SerialClass.cpp"
 #include <stdbool.h>
 
 #define TAM 4

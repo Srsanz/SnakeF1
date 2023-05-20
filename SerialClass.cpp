@@ -1,3 +1,6 @@
+/*
+
+
 #include "SerialClass.h"
 
 Serial::Serial(char *portName)
@@ -137,3 +140,5 @@ bool Serial::IsConnected()
     //Simply return the connection status
     return this->connected;
 }
+
+*/
