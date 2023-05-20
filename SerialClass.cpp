@@ -1,6 +1,4 @@
 /*
-
-
 #include "SerialClass.h"
 
 Serial::Serial(char *portName)
