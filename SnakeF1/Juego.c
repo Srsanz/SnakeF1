@@ -1,8 +1,7 @@
 #include "Juego.h"
 #include <stdio.h>
 
-//Jimbo mamahuevo
-//JaviPeruano
+
 
 SDL_Texture* jugadorTex; //Variable de textura del primer personaje
 SDL_Texture* jugador2Tex; //Variable de textura del segundo personaje
